@@ -17,7 +17,6 @@ setup(
     version='0.0.1',
     description="Plugin for Paratest to run python tests with nose",
     long_description=read_description(),
-    cmdclass={'test': PyTest},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python :: Implementation :: PyPy',
